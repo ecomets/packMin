@@ -1,0 +1,37 @@
+
+#' Prints a NpdeData object
+#' 
+#' prints a NpdeData object
+#' 
+#' @aliases print.NpdeData
+#' @param x A NpdeData object
+#' @param nlines number of lines from the dataset to print
+#' @param dots Additional arguments (ignored)
+
+#' Brief summary of an object
+#'
+#' Prints a brief summary of an object
+#' 
+#' @name showall
+#' @aliases showall showall.NpdeData showall,NpdeData-method showall.NpdeSimData showall,NpdeSimData-method  showall.NpdeRes  showall.NpdeObject
+#' @param object a NpdeData object
+#' @keywords print
+#' @export
+
+#' Summary of a NpdeData object
+#' 
+#' Extracts elements from a NpdeData object
+#' 
+#' @aliases summary.NpdeData
+#' @param object A NpdeData object
+#' @param print whether to print to data to stdev
+#' @param dots Additional arguments (ignored)
+
+#' Subsetting a NpdeData object
+#' 
+#' Return subset of data from a NpdeData object
+#' 
+#' @aliases subset.NpdeData
+#' @param x A NpdeData object
+#' @param subset logical expression indicating elements or rows to keep: missing values are taken as false.
+#' @param dots Additional arguments (ignored)
